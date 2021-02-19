@@ -1,0 +1,37 @@
+model: &model
+  num_classes: 200 # cub - 200, imagenet - 1000
+  backbone: vgg16 # [vgg16, resnet50]
+  pretrained: true
+  avgpool_threshold: 0.1
+  checkpoint_path: '' # train - {'': train from scratch, file_path: continue}, eval - {'': use the latest, file_path: one time}
+
+train: &train
+  num_epochs: 200
+
+  optimizer: &optimizer
+    name: sgd # [sgd, rmsprop, adma]
+    lr: 0.003
+    momentum: 0.9
+    nesterov: True
+    weight_decay: 0.0005
+
+  lr_schedule: &lr_schedule
+    name: custom # [multi, custom]
+    milestones: [60, 120, 180]
+    gamma: 0.1
+
+eval: &eval
+  loc_threshold: 0.2 # 0.35
+  iou_threshold: 0.5
+  # truncate: True
+  # percentile: 90
+
+data: &data
+  name: 'cub' # [cub, imagenet]
+  root: 'data'
+  batch_size: 40
+  num_workers: 4
+
+  transform: &transform
+    image_size: 256
+    crop_size: 224
