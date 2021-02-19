@@ -1,4 +1,5 @@
-# Rethinking Class Activation Mapping for Weakly Supervised Object Localization
+# Rethinking Class Activation Mapping for Weakly Supervised Object Localization [paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123600613.pdf)
+
 
 ## Datasets
 Create symlinks for datasets: CUB-200-2011 and ImageNet-1k.
