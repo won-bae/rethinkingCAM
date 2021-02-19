@@ -1,4 +1,4 @@
-# Rethinking Class Activation Mapping for Weakly Supervised Object Localization [paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123600613.pdf)
+# Rethinking Class Activation Mapping for Weakly Supervised Object Localization [[paper]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123600613.pdf)
 
 
 ## Datasets
