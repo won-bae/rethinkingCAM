@@ -1,6 +1,4 @@
-# Rethinking Class Activation Mapping for Weakly Supervised Object Localization
-[[Paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123600613.pdf)]
-[[Project Page](https://won-bae.github.io/rethinking-cam-wsol/)]
+# Rethinking Class Activation Mapping for Weakly Supervised Object Localization [[Paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123600613.pdf)][[Project Page](https://won-bae.github.io/rethinking-cam-wsol/)]
 
 
 ## Datasets
