@@ -1,7 +1,6 @@
 import os
 import cv2
 import pandas as pd
-from src.utils.util import log
 
 def store_cub_image_sizes(root):
     paths = pd.read_csv(
@@ -20,5 +19,5 @@ def store_cub_image_sizes(root):
 
 if __name__ == '__main__':
     root = 'data'
-    log.infov('Storing image sizes of cub200 dataset')
+    print('Storing image sizes of cub200 dataset')
     store_cub_image_sizes(root)
