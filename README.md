@@ -51,3 +51,5 @@ If you use this code or model for your research, please cite:
       year = {2020}
     }
 
+## Acknowledgment
+Many of core functions are borrowed from [ADL](https://github.com/junsukchoe/ADL).
